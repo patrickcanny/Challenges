@@ -11,7 +11,6 @@ import "strings"
 
 func reverseVowel(v string) string {
   if len(v) == 0 {return v}
-
   input := []rune(v)
   vowelkey := "aeiouAEIOU"
   start := 0
