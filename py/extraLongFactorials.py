@@ -20,7 +20,7 @@ def factIter(current, count, m):
 ###############################################################
 # recursive version
 def extraLongFactorials(n):
-    if n == 1:
+    if n == 0:
         return 1
     else:
         return n * extraLongFactorials(n-1)
